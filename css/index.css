@@ -179,6 +179,9 @@ hr.new1 {
     width: 950px;
     right: 70px;
   }
+  .ah{
+      display: none;
+  }
   @media (max-width:1080px){
 
     body{
@@ -270,7 +273,180 @@ hr.new1 {
     hr.new2{
 
         
-        width: 800px;
+        width: 650px;
         right:1px;
+    }
+    .ah{
+        display: none;
+    }
+  }
+
+
+  @media (max-width:700px){ 
+      .ah{
+          display: table-row;
+      }
+
+    body{
+        background-color: white;
+    }
+    ul{
+        width: 700px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 350px;
+    }
+    ul a{
+
+        font-size: 25px;
+        position: relative;
+        right: 40px;
+        margin-bottom: 5%;
+    }
+    .innog{
+
+        position: relative;
+        right: 300px;
+        display: flex;
+        bottom:60px;
+        
+    }
+    .feata{
+
+        width: 400px;
+    }
+    hr.hrser{
+        border-bottom: 2px solid gray;
+        position: relative;
+        top: 135px;
+        width: 800px;
+    }
+    hr.hrpro{
+        border-bottom: 2px solid gray;
+        position: relative;
+        top: 185px;
+        width: 800px;
+        
+    }
+
+    hr.hrvis{
+        border-bottom: 2px solid gray;
+        position: relative;
+        top: 235px;
+        width: 800px;
+    }
+    hr.hrfea{
+        border-bottom: 2px solid gray;
+        position: relative;
+        top: 285px;
+        width: 800px;
+    }
+    hr.hrab{
+        border-bottom: 2px solid gray;
+        position: relative;
+        top: 335px;
+        width: 800px;
+    }
+    hr.cont{
+        border-bottom: 2px solid gray;
+        position: relative;
+        top: 390px;
+        width: 800px;
+
+    }
+    hr.gr{
+        border-bottom: 2px solid gray;
+position: relative;
+top: 80px;
+width: 800px;
+
+    }
+    .logo{
+        position: relative;
+        left: 280px;
+        bottom: 450px;
+    }
+    .get{
+
+        width: 200px;
+        position: relative;
+        left: 300px;
+        font-size: 20px;
+        height: 30px;
+        position: relative;
+        top: 330px;
+        left: 60px;
+        padding-bottom: 30px;
+        
+
+    }
+    .feata{
+
+        display: flex;
+        flex-direction: column-reverse;
+        color: black;
+        width: 650px;
+        top: 180px;
+        font-size: 30px;
+        left: 30px;
+        padding: 20px;
+        
+    }
+    .features{
+        left:-20px;
+        bottom: 200px;
+        padding: 20px;
+        
+        
+    }
+    hr.new1{
+
+
+        position: relative;
+        top: 110px;
+    }
+
+    .about{
+        position: relative;
+
+        top: -170px;
+        left: -10px;
+    }
+    .middle-img{
+        width:650px;
+        position: relative;
+        left: 20px;
+    }
+    .flexcont2{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        font-size: 30px;
+        width: 650px;
+        right:20px;
+    }
+    .services{
+        position: relative;
+        bottom: 0px;
+        right: 10px;
+    }
+    .product{
+        position: relative;
+
+        top: 10px;
+        left: 10px;
+    }
+    .vision{
+
+        position: relative;
+        top: 10px;
+        left: 10px;
+    }
+    .cr{
+
+        position: relative;
+        left: 190px;
+        top: 30px;
     }
   }
