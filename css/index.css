@@ -1,3 +1,276 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
 
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+
+
+.codes img{
+    position: relative;
+    left: 1020px;
+    bottom:150px;
+    width: 300px;
+
+
+}
+
+ul{
+
+    position: relative;
+    left: 400px;
+    padding-top:10px;;
+    \
+}
+ul a {
+    font-size: 20px;
+ text-decoration: none;
+ margin-right: 50px;
+ color: gray;
+ position: relative;
+ top: 20px;
+}
+
+.logo{
+    position:relative;
+    left: 1150px;
+}
+.inno{
+
+    position: relative;
+    left: 550px;
+    top: 110px;
+    font-size: 70px;
+    width: 500px;
+}
+
+
+.get{
+
+    font-size: 30px;
+    position: relative;
+    left: 550px;
+    top: 120px;
+    border: 3px solid black;
+    color: grey;
+    width: 200px;
+    text-align: center;
+    padding: 5px;
+   
+    
+}
+
+.feata{
+
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+    font-size: 20px;
+    position:relative;
+    bottom:30px;
+    left: 400px;
+}
+.middle-img{
+
+    position: relative;
+    left: 400px;
+    width: 1000px;
+}
+.flexcont2{
+
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    font-size: 20px;
+    position: relative;
+    left: 400px;
+    top: 50px;
+}
+
+footer{
+
+    position: relative;
+    left: 400px;
+    top: 100px;
+}
+.cr{
+
+    position: relative;
+    left: 400px;
+}
+
+
+
+hr.new1 {
+    border-top: 1px solid black;
+    position: relative;
+    bottom: 30px;
+    width: 950px;
+    right: 70px;
+  }
+
+  hr.new2{
+
+    border-top: 1px solid black;
+    position: relative;
+    top:60px;
+    width: 950px;
+    right: 70px;
+  }
+  @media (max-width:1080px){
+
+    body{
+        background-color: white;
+    }
+    ul{
+        position: relative;
+        left: 100px;
+        width:2500px;
+    }
+    .codes{
+
+        display: none;
+    }
+    ul a {
+        font-size: 30px;
+    }
+    .innog{
+        position: relative;
+        right:140px;
+        bottom: 40px;
+    }
+    .middle-img{
+        position: relative;
+        top: 500px;
+    }
+    .feata{
+
+        position: relative;
+        top: 150px;
+        left:90px;
+    }
+
+    .flexcont2{
+
+        position: relative;
+        top:250px;
+        left: 30px;
+    }
+    .middle-img{
+        position: relative;
+        top:190px;
+        left: 100px;
+        width:  900px;
+    }
+    footer{
+
+        top: 350px;
+        font-size: 20px;
+        left: 40px;
+    }
+    hr.new2{
+
+        top: 290px;
+    }
+    .about{
+        position: relative;
+        bottom: 30px;
+        left: 40px;
+    }
+
+    .features{
+        position: relative;
+        bottom: 30px;
+        left: 75px;
+    }
+    .services{
+        position: relative;
+        bottom: 30px;
+        left: 40px;
+    }
+
+    .product{
+        position: relative;
+        bottom: 30px;
+        left: 40px;
+    }
+    .vision{
+        position: relative;
+        bottom: 30px;
+        left: 40px;
+    }
+    hr.new1{
+
+        top: 100px;
+        width: 800px;
+        right:1px;
+    }
+    hr.new2{
+
+        
+        width: 800px;
+        right:1px;
+    }
+  }
